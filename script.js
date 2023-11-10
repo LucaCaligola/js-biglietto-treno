@@ -3,13 +3,14 @@ const anni = parseInt(prompt ("Quanti anni hai?"));
 
 let prezzoPerKm = 0.21
  
-if (anni <= 18) {
+if (anni < 18) {
     prezzoPerKm=prezzoPerKm * 0.80
 }
 
-else if (anni => 65) {
+else if (anni > 64) {
     prezzoPerKm=prezzoPerKm * 0.60
 }
+
 
 let prezzoTicket = (prezzoPerKm * km).toFixed(2);
 
