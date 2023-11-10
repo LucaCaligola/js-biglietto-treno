@@ -23,9 +23,9 @@ else if (anni > 65) {
     prezzoPerKm * 0.60
 }
 
-// else (anni < 65, anni > 18 {
-//     prezzoPerKm = 0.21
-// }
+else anni < 65, anni > 18 {
+    prezzoPerKm = 0.21
+}
 
 let prezzoTicket = prezzoPerKm * km
 
